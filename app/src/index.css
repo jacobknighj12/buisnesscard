@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App-image {
+  width: 20%;
+}
+*{
+  background-color: #21222A;
+}
+.Main{
+  color: aliceblue;
+}
+.Contacts{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.card{
+  background-color: #1A1B21;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 1rem;
 }
